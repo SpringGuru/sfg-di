@@ -13,9 +13,14 @@ public class SfgDiApplication {
 
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
 
-		System.out.println("-------------------Profile Selection");
+
+		System.out.println("-------------------Profile Selection - LANGUAGE");
 		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
 		System.out.println(i18nController.getGreeting());
+
+		System.out.println("-------------------Profile Selection - ANIMAL");
+		PetController petController = (PetController) ctx.getBean("petController");
+		System.out.println(petController.whichPetIsTheBest());
 		
 		
 		System.out.println("-------------------Primary Bean");
