@@ -10,6 +10,10 @@ public class SfgDiApplication {
 
 	public static void main(String[] args) {
 
+		//git check1
+		//git check1
+		//git check1
+
 
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
 
