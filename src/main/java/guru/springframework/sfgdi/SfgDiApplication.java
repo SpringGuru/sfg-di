@@ -12,6 +12,8 @@ public class SfgDiApplication {
 
 		//git check1
 		//git check1
+		//git check2
+		//git check2
 		//git check1
 
 
